@@ -1,0 +1,22 @@
+01:00:12 **** Rebuild of configuration Debug for project Q_7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q_6.o" "..\\src\\Q_6.c" 
+gcc -o Q_7.exe "src\\Q_6.o" 
+Info: Nothing to build for Q_7
+01:01:39 **** Incremental Build of configuration Debug for project Q_7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q_6.o" "..\\src\\Q_6.c" 
+..\src\Q_6.c: In function 'main':
+..\src\Q_6.c:25:27: error: invalid operands to binary ^ (have 'float' and 'float')
+   25 |  User_Input_1=User_Input_1^User_Input_2;
+      |                           ^
+..\src\Q_6.c:26:29: error: invalid operands to binary ^ (have 'float' and 'float')
+   26 |  User_Input_2 = User_Input_1^User_Input_2;
+      |                             ^
+..\src\Q_6.c:27:27: error: invalid operands to binary ^ (have 'float' and 'float')
+   27 |  User_Input_1=User_Input_1^User_Input_2;
+      |                           ^
+01:01:55 **** Incremental Build of configuration Debug for project Q_7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q_6.o" "..\\src\\Q_6.c" 
+gcc -o Q_7.exe "src\\Q_6.o" 

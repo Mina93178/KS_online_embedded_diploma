@@ -1,0 +1,12 @@
+01:54:12 **** Incremental Build of configuration Debug for project Q_8 ****
+Info: Internal Builder is used for build
+gcc -o Q_8.exe "src\\Q_8.o" 
+Info: Nothing to build for Q_8
+01:54:35 **** Incremental Build of configuration Debug for project Q_8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q_8.o" "..\\src\\Q_8.c" 
+gcc -o Q_8.exe "src\\Q_8.o" 
+01:55:33 **** Incremental Build of configuration Debug for project Q_8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q_8.o" "..\\src\\Q_8.c" 
+gcc -o Q_8.exe "src\\Q_8.o" 

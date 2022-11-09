@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : Q_2.c
+ Author      : Mina Wagdy
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void flush(void){
+	fflush(stdin);
+	fflush(stdout);
+}
+int main(void) {
+	int User_Input =0;
+	flush();
+	printf("Please, Enter An integer :\n");
+	scanf("%d",&User_Input);
+	printf("You Entered: %d",User_Input);
+	return 0;
+}
