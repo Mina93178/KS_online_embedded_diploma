@@ -1,12 +1,176 @@
-01:54:12 **** Incremental Build of configuration Debug for project Q_8 ****
+21:51:45 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -o Q_8.exe "src\\Q_8.o" 
-Info: Nothing to build for Q_8
-01:54:35 **** Incremental Build of configuration Debug for project Q_8 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:24:7: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   24 |  if (a>b>c) {printf("yalaa bena");}
+      |      ~^~
+gcc -o test.exe "src\\test.o" 
+Info: Nothing to build for test
+21:52:15 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q_8.o" "..\\src\\Q_8.c" 
-gcc -o Q_8.exe "src\\Q_8.o" 
-01:55:33 **** Incremental Build of configuration Debug for project Q_8 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:24:7: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   24 |  if (c>b>a) {printf("yalaa bena");}
+      |      ~^~
+gcc -o test.exe "src\\test.o" 
+Info: Nothing to build for test
+21:56:00 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q_8.o" "..\\src\\Q_8.c" 
-gcc -o Q_8.exe "src\\Q_8.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:24:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   24 |  printf("%d", sizeof(c/= b+a));
+      |          ~^   ~~~~~~~~~~~~~~~
+      |           |   |
+      |           int long long unsigned int
+      |          %I64d
+..\src\test.c:24:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   24 |  printf("%d", sizeof(c/= b+a));
+      |          ~^   ~~~~~~~~~~~~~~~
+      |           |   |
+      |           int long long unsigned int
+      |          %I64d
+gcc -o test.exe "src\\test.o" 
+21:56:54 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:22:10: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   22 | char x = "\012";
+      |          ^~~~~~
+gcc -o test.exe "src\\test.o" 
+21:57:52 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+22:27:33 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+22:27:59 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+22:35:50 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+00:50:44 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:22:6: warning: 'main' is normally a non-static function [-Wmain]
+   22 |  int main(void)
+      |      ^~~~
+..\src\test.c: In function 'main':
+..\src\test.c:24:14: error: expected identifier or '(' before numeric constant
+   24 |   int a = 1, 2, 3;
+      |              ^
+At top level:
+..\src\test.c:22:6: warning: 'main' defined but not used [-Wunused-function]
+   22 |  int main(void)
+      |      ^~~~
+00:51:36 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:19:14: error: expected identifier or '(' before numeric constant
+   19 |   int a = 1, 2, 3;
+      |              ^
+00:52:11 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:20:11: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+   20 |      a = 1, 2, 3;
+      |           ^
+..\src\test.c:20:14: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+   20 |      a = 1, 2, 3;
+      |              ^
+gcc -o test.exe "src\\test.o" 
+01:13:17 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:20:6: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+   20 |      printf("%d", a);
+      |      ^~~~~~~~~~~~~~~
+gcc -o test.exe "src\\test.o" 
+Info: Nothing to build for test
+Info: Nothing to build for test
+21:40:21 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:20:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   20 |  for (a=0;a>=0;a++);
+      |  ^~~
+..\src\test.c:22:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+   22 |   flush();
+      |   ^~~~~
+gcc -o test.exe "src\\test.o" 
+21:41:16 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+Info: Nothing to build for test
+21:42:32 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+21:42:57 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+21:51:07 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+21:51:33 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+22:46:50 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+Info: Nothing to build for test
+Info: Nothing to build for test
+Info: Nothing to build for test
+22:48:42 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+22:49:03 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+22:49:14 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+Info: Nothing to build for test
+22:50:22 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+22:50:46 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+Info: Nothing to build for test
+Info: Nothing to build for test
+22:52:13 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+22:52:27 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
+22:52:49 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+gcc -o test.exe "src\\test.o" 
